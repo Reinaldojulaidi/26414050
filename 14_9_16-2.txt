@@ -1,6 +1,8 @@
-
-
-
-
-
-
+untuk membuat sebuah file
+touch contoh.txt
+untuk mengisi sebuah file
+cat > contoh.txt
+abcd
+untuk keluar CTRL+D
+cara mencari kata di sebuah file
+grep a contoh.txt
