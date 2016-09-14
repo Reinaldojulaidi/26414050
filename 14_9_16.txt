@@ -1,0 +1,3 @@
+Coba buat dan masuk ke directory
+mkdir coba
+cd coba
