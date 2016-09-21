@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+@string = <STDIN>;
+print sort(@string);
