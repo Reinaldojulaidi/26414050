@@ -1,0 +1,2 @@
+curl -o test.txt http://google.com
+sed -e '/^{<}\{>}$/,/{!}!/p' test.txt
