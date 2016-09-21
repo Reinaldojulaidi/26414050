@@ -1,0 +1,8 @@
+grep 'test' test.txt[A
+[3[A[B[C[A[D[D[D[D[A[B[B[B[A
+cat >> test.txt
+aabbccdd
+aabbcc
+
+[A[A[3~[Agrep 'word' test.txt
+grep 'word' test.txt tes2.txt
