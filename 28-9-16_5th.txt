@@ -1,0 +1,11 @@
+echo "nyoba command wc"[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dc[oba 
+cat > text.txt
+aa a a aa a
+bb
+b
+bb b
+wc text.txt
+4 9 13
+echo "4 menandakan baris"
+echo " 9 menandakan kolom"
+echo " 13 menandakan karakter"
