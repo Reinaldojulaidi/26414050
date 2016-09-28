@@ -1,0 +1,9 @@
+echo "coba text editor"
+vi text.txt
+test
+test
+te
+tes
+test
+untuk keluar CTRL+D
+(Ctrl+D)
