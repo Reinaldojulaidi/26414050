@@ -1,0 +1,19 @@
+aa
+aaa
+aaa
+b
+aa
+ba
+bb
+bbbb
+bb
+a
+cat > text.txt
+aa
+aaa
+aaa
+ab
+bb
+ba
+grep -c "a" text.txt
+5
