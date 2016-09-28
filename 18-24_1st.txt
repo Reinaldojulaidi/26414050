@@ -1,0 +1,6 @@
+Test git pull github
+git pull
+echo "sukses update dari github"
+coba push github
+git push namatext.txt
+git commit -m "test saja"
