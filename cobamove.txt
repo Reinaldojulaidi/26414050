@@ -1,0 +1,7 @@
+echo "coba move file dari folder ke folder lain"
+mkdir test
+cd test
+touch test.txt
+cd ..
+mkdir test2
+mv test/test.txt test2
