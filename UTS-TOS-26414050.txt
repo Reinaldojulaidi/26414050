@@ -1,0 +1,29 @@
+//no1
+
+#!/bin/bash
+
+curl http://www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-6242166 > test223.txt
+grep -w "price:" test223.txt > test225.txt
+grep -w "price:" test223.txt >> test224.txt
+
+sed -i -e "s/price//g" test224.txt
+sed -i -e "s/://g" test224.txt
+sed -i -e "s/,//g" test224.txt
+sed -i -e "s/'//g" test224.txt
+sed -i -e "s/ //g" test224.txt
+cat test224.txt
+
+a=15000000
+if test225.txt < $a; then
+
+mail -s "subject" test1@email.com < messages.txt
+
+fi
+
+//no2
+
+curl https://stats.labs.apnic.net/ipv6/ID > test226.txt
+
+grep -w "v:" test226.txt > test227.txt
+grep -w "AS" test227.txt > test228.txt
+
