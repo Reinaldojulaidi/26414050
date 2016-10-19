@@ -1,0 +1,6 @@
+echo "mencoba ganti kata menggunakan sed"
+cat > test.txt
+dia dan aku
+kami adalah pemain
+sed s/dan/atau/g' test.txt
+cat test.txt
