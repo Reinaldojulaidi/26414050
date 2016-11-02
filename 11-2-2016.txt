@@ -1,0 +1,6 @@
+curl https://example.com temp.txt
+grep -w "a" temp.txt
+grep "a" temp.txt
+grep -c "a" temp.txt
+grep -r "a" temp.txt
+grep -i "A" temp.txt
